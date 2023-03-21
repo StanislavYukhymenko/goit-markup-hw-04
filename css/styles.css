@@ -194,7 +194,13 @@ body {
 .hero-section {
 	padding-top: 188px;
 	padding-bottom: 188px;
-	background: #2e2f42;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .hero-section-title {
@@ -309,17 +315,19 @@ body {
 	display: flex;
 }
 
-.team-content {
-	background: #ffffff;
-}
-
-.our-team-list .team-container-content:not(:last-child) {
+.our-team-list .team-content:not(:last-child) {
 	margin-right: 24px;
 }
 
-.team-container-container {
-	padding-top: 32px;
+.team-content {
 	padding-bottom: 32px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
+	background: #ffffff;
+}
+
+.team-container-content {
+	padding-top: 32px;
 }
 
 .name-team {
@@ -333,12 +341,47 @@ body {
 }
 
 .team-desc {
+	padding-bottom: 8px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: #434455;
+}
+
+.list-teame-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 24px;
+	list-style: none;
+}
+
+.teame-icons {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	background-color: #4d5ae5;
+}
+
+.btn-teame-icons {
+}
+
+.btn-icons {
+	width: 16px;
+	height: 16px;
+	fill: currentColor;
+}
+
+.btn-icons:hover {
+}
+
+.icon {
 }
 
 /*------------------- Footer------------------*/
@@ -439,6 +482,11 @@ body {
 
 .service-item {
 	width: calc((100% - 48px) / 3);
+}
+
+.service-item:hover,
+.service-item:focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .service-item:nth-child(3n) {
