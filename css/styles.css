@@ -459,10 +459,11 @@ body {
 }
 
 .footer-container {
-	display: flex;
 }
 
 .footer-link {
+	width: 115px;
+	height: 24px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -497,14 +498,57 @@ body {
 }
 
 .social-media-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .item-footer {
+	padding-bottom: 16px;
+	display: flex;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #ffffff;
+}
+
+.social-media-list-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-media-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	gap: 16px;
+	list-style: none;
+}
+
+.social-media-content {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-media-link {
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-media-svg {
+	width: 24px;
+	height: 24px;
+	fill: currentColor;
 }
 
 /*----------------------Portfolio---------------------*/
