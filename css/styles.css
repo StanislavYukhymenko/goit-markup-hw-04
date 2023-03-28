@@ -444,6 +444,8 @@ body {
 }
 
 .customers-content {
+	width: 168px;
+	height: 88px;
 }
 
 .customers-item {
@@ -453,6 +455,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	border: 1px solid #8e8f99;
+	border-radius: 4px;
 }
 
 .customers-item:hover,
@@ -461,8 +464,8 @@ body {
 }
 
 .customers-logo {
-	width: 168px;
-	height: 88px;
+	width: 104px;
+	height: 56px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -626,17 +629,8 @@ body {
 }
 
 .service-item {
-	box-sizing: border-box;
-	width: 360px;
-	height: 420px;
 	background: #ffffff;
-	border: 1px solid #e7e9fc;
 	width: calc((100% - 48px) / 3);
-}
-
-.service-item:hover,
-.service-item:focus {
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .service-item:nth-child(3n) {
@@ -644,10 +638,19 @@ body {
 }
 
 .service-content {
+	display: block;
+}
+
+.service-content :hover,
+.service-content :focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.service-content-container {
+	padding: 32px 0px 32px 16px;
+	border: 1px solid #e7e9fc;
 }
 
 .service-name {
-	padding-top: 32px;
 	margin-bottom: 8px;
 	font-size: 20px;
 	font-weight: 500;
