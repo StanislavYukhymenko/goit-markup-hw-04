@@ -99,14 +99,23 @@ img {
 .heder-menu-list {
   display: flex;
   gap: 40px;
-  position: relative;
 }
 
 .heder-menu-item {
+  position: relative;
 }
+
 .heder-menu-item:hover:after {
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: rgba(64, 75, 191, 1);
+
   content: "";
   position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 0;
 }
 
 .heder-menu-link {
