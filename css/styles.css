@@ -113,7 +113,7 @@ img {
 
   content: "";
   position: absolute;
-  top: 40px;
+  top: 45px;
   bottom: 0;
   left: 0;
 }
@@ -125,7 +125,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 
 .heder-menu-link:hover,
