@@ -104,7 +104,6 @@ img {
 }
 
 .heder-menu-item {
-  position: relative;
 }
 
 .heder-menu-link {
@@ -126,18 +125,14 @@ img {
 }
 
 .heder-menu-link-studio::after {
-  position: relative;
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  background: rgba(64, 75, 191, 1);
-  color: #404bbf;
-
   content: "";
+  width: 100%;
   position: absolute;
-  top: 45px;
-  bottom: -1px;
   left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .header-navigation-address {
