@@ -256,6 +256,8 @@ img {
 }
 
 .possibilities-icon {
+  width: 64px;
+  height: 64px;
 }
 
 .possibilities-subtitle {
@@ -371,6 +373,8 @@ img {
 }
 
 .icon-team {
+  width: 16px;
+  height: 16px;
   fill: rgba(244, 244, 253, 1);
 }
 
